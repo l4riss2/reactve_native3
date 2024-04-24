@@ -5,7 +5,7 @@ export default function App(){
  
   return(
     <View>
-      <Text></Text>
+      <Text>Hello World,ta na Hora de codar</Text>
     </View>
   );
 
