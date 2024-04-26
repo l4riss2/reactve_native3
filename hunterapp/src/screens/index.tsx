@@ -1,7 +1,7 @@
 import React from 'react';
 import {View,Text} from 'react-native'
 
-export default function App(){
+export function SignIn(){
  return(
     <View>
       <Text>Hello World,ta na Hora</Text>
@@ -9,4 +9,3 @@ export default function App(){
   );
 
 }
-
