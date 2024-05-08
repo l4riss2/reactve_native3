@@ -5,10 +5,9 @@ import {styles} from './styles';
 
 export function SignIn(){
  return(
-    <View>
-      <Text>Hello World</Text>
+    <Viewstyle={{flex:1}}>
+     <Text>Hello World</Text>
     </View>
-   
   );
 }
 
