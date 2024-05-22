@@ -1,18 +1,13 @@
 import React ,{useState} from 'react';
-import {View,Text,TextInput} from 'react-native';
+import {View,Text,TextInput,Image} from 'react-native';
 import {styles} from './styles';
-
+import IllustrationImg from '../../src/assets/illustrationImg.png'
 
 export function SignIn(){
-  const [text,setText] = useState ("Vc não digitou nasa ainda");
+  const [text,setText] = useState ("Vc não digitou nada ainda");
   return(
     <View style={styles.container}>
-     <Text>Hello World</Text>
-     <TextInput style={styles.input}
-     onChangeText={setText}/>
-      <Text>
-        Você digitou:{text}
-      </Text>
+       <Image source={} />
     </View>
   );
 }
