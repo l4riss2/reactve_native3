@@ -1,14 +1,13 @@
 import React ,{useState} from 'react';
-import {View,Text,TextInput,Image} from 'react-native';
+import {View,Text,TextInput,Image,StatusBar} from 'react-native';
 import {styles} from './styles';
 import IllustrationImg from '../assets/illustration.png'
-import { StatusBar } from 'expo-status-bar';
 
 export function SignIn(){
   const [text,setText] = useState ("Vc não digitou nada ainda");
   return(
     <View style={styles.container}> 
-     <StatusBar barStyle='light-content' backgroundColor = {"transparent"} translucent/>
+     <StatusBar barStyle='light-content'backgroundColor = {"transparent"} translucent/>
       <Image source={IllustrationImg} style={styles.image}  resizeMode = 'stretch'/>
     
     <View style = {styles.content}>
