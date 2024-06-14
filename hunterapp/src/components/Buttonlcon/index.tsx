@@ -6,11 +6,11 @@ import {styles} from './styles'
 
 export function ButtonIcon (){
     return(
-        <TouchableOpacity>
-            <View>
-                <Image/>            
+        <TouchableOpacity style={styles.container}>
+            <View style={styles.iconWrapper}>
+                <Image source={DiscordIMG} styl={styles.icon}/>            
             </View>
-            <Text>
+            <Text style={styles.title}>
                 Entrar com discord
             </Text>
         </TouchableOpacity>
