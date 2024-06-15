@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     backgroundColor:'red',
     alignItems:'center',
     justifyContent:'center',
-    backgroundcolor: theme.colors.backgorung
+    backgroundColor: theme.colors.backgorung
    },
    
    image : {
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
       color:theme.colors.header,
       fontSize:40,
       marginBottom:16,
-      textAlign:'center',
+      textAlign:'center'
    },
    subtitle:{
       color: theme.colors.headin,
