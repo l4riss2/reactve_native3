@@ -25,4 +25,20 @@ export default function App(){
     </>
   );
 
+  const flex = {} => {
+   return(
+    <View style={[styles.container,{flexDirection:'column',},]}>
+      <View style={{flex:1,backgroundColor:'gray'}}/>
+      <View style={{flex:1,backgroundColor:'gray'}}/>
+      <View style={{flex:1,backgroundColor:'gray'}}/>
+    </View>
+   )
+   
+   const style= StyleSheet.create({
+   container:{
+    flex:1,
+    padding:20,
+   }
+   })
+  }
 } 
